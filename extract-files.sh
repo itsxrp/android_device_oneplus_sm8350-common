@@ -66,8 +66,8 @@ function blob_fixup() {
         odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc)
             sed -i "/user/ s/system/root/g" "${2}"
             ;;
-        product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)
-            sed -i "s/\/my_product/\/product/" "${2}"
+        system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml)
+            sed -i "s/my_product/system_ext/" "${2}"
             ;;
         system_ext/lib64/libwfdnative.so)
             sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"

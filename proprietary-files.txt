@@ -475,11 +475,11 @@ vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 
-# Hotword Enrollment
-my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
-my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar
-my_product/priv-app/HotwordEnrollmentOKGoogle.apk:product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogle.apk
-my_product/priv-app/HotwordEnrollmentXGoogle.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogle.apk
+# Hotword Enrollment - from LE2125_11.F.21
+my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+my_product/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar
+my_product/priv-app/HotwordEnrollmentOKGoogleHEXAGON.apk:product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+my_product/priv-app/HotwordEnrollmentXGoogleHEXAGON.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 
 # IMS - from LA.QSSI.13.0.r1-08600-qssi.0 
 system_ext/app/ImsRcsService/ImsRcsService.apk|1808781bcabdec3db97fd19cfe0365a1040178c1
