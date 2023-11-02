@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "WifiResTarget",
-    vendor: true,
+    device_specific: true,
 }

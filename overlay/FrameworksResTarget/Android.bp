@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "FrameworksResTarget",
-    vendor: true,
+    device_specific: true,
 }
